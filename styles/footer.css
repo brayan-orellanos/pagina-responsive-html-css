@@ -8,8 +8,7 @@ footer{
     text-align: start;
     align-items: start;
     justify-content: space-between;
-    padding-bottom: 0;
-    grid-gap: 0;
+    margin-bottom: 0;
 }
 
 .item-footer{
@@ -27,6 +26,7 @@ footer{
 
 .item-footer p{
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .footer-tittle{
@@ -130,5 +130,13 @@ footer{
 @media screen and (min-width: 930px){
     .footer{
         grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+        justify-content: center;
+        grid-gap: 40px;
+        padding: 20px 0;
+    }
+
+    .item-footer{
+        padding: 0;
     }
 }
+

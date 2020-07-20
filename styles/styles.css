@@ -260,6 +260,7 @@ p{
 @media screen and (min-width: 930px){
     .container{
         width: 90%;
+        padding: 0;
     }
 
     .welcome, .apply, .reaserch, .news, .cuadro-contact, .footer, .courses{
@@ -272,14 +273,12 @@ p{
     .container{
         width: 85%;
         padding: 40px 0;
-        margin: 0 auto;
     }
 
     .welcome, .courses, .apply, .reaserch, .news, .cuadro-contact, .footer{
         grid-gap: 30px;
         justify-content: space-between;
         align-items: start;
-        margin: 0 auto;
     }
 
     .container p{
